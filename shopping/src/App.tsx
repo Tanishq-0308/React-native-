@@ -6,7 +6,7 @@ import Details from './screens/Details';
 
 export type RootParamList= {
   Home:undefined;
-  Details:{Product: Product}
+  Details:{product: Product}
 };
 
 const Stack= createNativeStackNavigator<RootParamList>()
